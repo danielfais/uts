@@ -1,0 +1,121 @@
+/* Reset CSS sederhana */
+body, h1, h2, h3, p, ul, ol, li, figure, img, a, form, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya Header */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 36px;
+}
+
+/* Gaya Navbar */
+.navbar {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px;
+}
+
+/* Gaya Utama */
+main {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+/* Gaya Galeri */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.round-image {
+  margin: 10px;
+  text-align: center;
+}
+
+.round-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* Gaya Artikel */
+.articles {
+  flex: 2;
+}
+
+article {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+article h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+article p {
+  font-size: 16px;
+}
+
+article a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Gaya Form */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Gaya Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
